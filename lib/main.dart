@@ -84,7 +84,7 @@ class _FormPageState extends State<FormPage> {
                     _result = _txtCtrl.text;
                   });
 
-                  if (_result == "heri tamvan") {
+                  if (_result == "Hendra arkan") {
                     fetchData();
                   } else {
                     dataList.clear();
@@ -94,7 +94,7 @@ class _FormPageState extends State<FormPage> {
               child: const Text("Submit"),
             ),
             Text(_result),
-            if (_result == "heri tamvan")
+            if (_result == "Hendra arkan")
               Expanded(
                 child: ListView.builder(
                   itemCount: dataList.length,
